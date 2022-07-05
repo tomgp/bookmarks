@@ -1,0 +1,33 @@
+# this workflow runs a node script which gets data from a google sheet and commits it to the repo as a set of CSV files
+
+name: get data
+
+on:
+  workflow_dispatch:
+  schedule:
+  # * is a special character in YAML so you have to quote this string
+  - cron:  '* */12 * * *'
+
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with: node-version: 16
+      
+      - name: install dependencies
+        run: npm ci
+      
+      - name: get data
+        run: npm run get
+      
+      - name: add to repo
+      
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add .
+          git commit -m "data update"
+          git push origin main
