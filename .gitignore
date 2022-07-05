@@ -78,4 +78,4 @@ typings/
 .svelte-kit/dev/generated/manifest.js
 .DS_Store
 
-scripts/geodata/local-authorities-england.json
+.keys
