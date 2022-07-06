@@ -10,6 +10,13 @@ const creds = {
   "client_email": process.env.CLIENT_EMAIL
 };
 
+console.log(creds.client_email)
+if(creds.private_key != undefined && creds.private_key != "" && creds.private_key != null){
+  console.log("GOT private key")
+}else{
+  console.log("nope on the private key");
+}
+
 (async function() {
   const doc = new GoogleSpreadsheet(sheetID);
   await doc.useServiceAccountAuth(creds);
