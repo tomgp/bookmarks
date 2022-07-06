@@ -8,6 +8,10 @@ on:
   # * is a special character in YAML so you have to quote this string
   - cron:  '* */12 * * *'
 
+env:
+  GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+  CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
+
 jobs:
   get:
     runs-on: ubuntu-latest
