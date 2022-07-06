@@ -16,17 +16,9 @@ jobs:
       - uses: actions/setup-node@v3
         with: 
           node-version: 16
-      
-      - name: install dependencies
-        run: npm ci
-      
-      - name: get data
-        run: npm run get
-      
-      - name: add to repo
-      
-      - name: setup git config
-        run: |
+      - run: npm ci
+      - run: npm run get
+      - run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .
