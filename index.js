@@ -10,13 +10,6 @@ const creds = {
   "client_email": process.env.CLIENT_EMAIL
 };
 
-console.log(creds.client_email)
-if(creds.private_key != undefined && creds.private_key != "" && creds.private_key != null){
-  console.log("GOT private key")
-}else{
-  console.log("nope on the private key");
-}
-
 (async function() {
   const doc = new GoogleSpreadsheet(sheetID);
   await doc.useServiceAccountAuth(creds);
@@ -25,7 +18,7 @@ if(creds.private_key != undefined && creds.private_key != "" && creds.private_ke
   Object.entries(doc.sheetsByTitle).forEach(async ([title, worksheet])=>{
     console.log(`Downloading ${title}...`);
     const CSV = await worksheet.downloadAsCSV();
-    const location = `data/${title}.csv`
+    const location = `data/${title}.csv`;
     fs.writeFile(location, CSV, (err)=>{
       if(err){
         console.error(`Problem saving ${title}: ${err}`);
@@ -33,6 +26,17 @@ if(creds.private_key != undefined && creds.private_key != "" && creds.private_ke
         console.log(`Saved ${title} to ${location}`);
       }
     });
+    const meta = {
+      checked: new Date(),
+      commit: process.env.COMMIT_SHA
+    }
+    fs.writeFile('meta.json',JSON.stringify(meta),(err)=>{
+      if(err){
+        console.error(`Problem saving metadata: ${err}`);
+      }else{
+        console.log(`Saved metadata`);
+      }
+    })
   })
 })()
 .catch(err=>{

@@ -11,6 +11,7 @@ on:
 env:
   GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
   CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
+  COMMIT_SHA: ${{ GITHUB_SHA }}
 
 jobs:
   get:
