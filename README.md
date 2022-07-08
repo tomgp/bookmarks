@@ -1,1 +1,1 @@
-# My directory of internet sites
+#   directory of internet sites
