@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bookmarks-tgp",
+  "private_key_id": "d687d60e19ce70549b5c8ae8efeedb10a051a420",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDphmOTK17ksT6c\ni9RlXZ2H1GhVtfnXIKYwwNRmVUNJd+6emI95lGp3dlX42d4Wa28IPJk0irsA7cFd\n45ntaD1uglIS0IghGtYTGtAzx3dYt2kiFaobZSw/XbPNAcWIWUrSpR2I/Ga0KqwP\nwCQfam2NcQhSpdra9quBRq5Ra+vQkR5fBkfpseUBft7wsUZ165Oo5er3GpxX0lf/\nF36UvuDmQAuMrNo52WEd9lyUsIXVAn2mxiWDiZH5bThu7RyNv5auMRxEgKamd5Va\nQXP4Ho5XANEh3d6Cx1nQdwIKDsb7YhgfRGIhH87zBr56L2GoggO5mPqsQTt7EdrV\nFTB6xCKVAgMBAAECggEABZNznu+zCKSdFvhnxQ4i52A+J9AOjkp1kf0EJ5w8b1s6\nnNCOB+VwL6YNtJzhb9J3LRm+dsHaaBr8FZWMQDmGZNjU6NxiaE7PculVRsc8N7nL\nstqmt7y92N/HC5StP6R/5AO5Sj6jeJb7HDZPuMhQWn49TOvnMHhqyIRNiUFQb962\n8J1s/MX+joBTXshCCztTdBizH4rVBnJC5g/jP3XbBy4Jrrd+dveeg1sOK5H34Ew+\nl9cjU+gdGTIV4VzQAAc/ISL/wb0bhwBUoMToQi7LtgGO0SBdACm0E+10CjPbAn3e\n6Ifp+Joz0DNMjzRA2Bxt5x15Lj9B3+/rUd1MrXVliQKBgQD/+32vvF83GMm+EGRQ\n09eVHgaaou6kEuX1TEdjePKwDMKR9kqRMAQWOR0A52yD5WLmKa0xNUzwXlrYd6Zi\n3SuH1rUovhs0HGHmN8F9SsyLE+Ra8h0dt9xRJNNxUM21h3007OcycXc3bsVdGtqO\n2sBHR8UOYt+zOQyx73G2rEJdPwKBgQDpioCevCSP6esuk7TSqTE8ScituWt9yS06\nlq+73R/e4jJQkND2I1cJb/lQH3pRTikZFluyOuJNua4sXFtlR0ELLhL3GMmjyVkx\nINiyWbchd0Dg4KlEs/JVMu/mCQ7baP/ojY+thZA39YN86fjgTIsj9PHV5ZBwsSgy\nX8PHUb5HKwKBgQCRz9ypRODrzofkZwvtaq5Ld54FabgL5+PrlXa4t8Vt+ObAJA4X\no8VAL2pRAII0o25xct3/wL/Bz81prsYtXJSWPPxWZ+uxBFXTwIDL8NaQhlU2ZOGm\n8vthkVuMGZ4DwFjW0/diKXXiMovj3A8Q/pQ2RjB+YF3ShjWwCZe5mWf4GwKBgDBi\nm6dHf6O5aRprS8lheGvvNX6YreaPqak70wjvFU1OO/JpLoHwbHXuFw88llEGConC\nEhlpDb3gvG9Aa0cebiFs2E0Ne6lNbAc7sOmyoLh0RqLQqQEs7wYr2XwlYEihBnQd\n8CiZRXnyid11dDS0Zxd6Bii0uSo/6f4VzTAchXmlAoGAGeGOADX7jJyKGJ0QCJVN\nybf31aC1/EQ22FjlFLEAIzsSZIRuDvCLFBeue5SOBZnmr4COewPs+aqR/C+iQoKh\ndJCjaJLaBmpafWxDXeszO4m3qfzKkvZnli5Lb998HIq3MPYpB0cqW23gVytxwsIQ\ngt8c7Gp4JzonQ+ZMcAaCAEY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bookmark-bot@bookmarks-tgp.iam.gserviceaccount.com",
+  "client_id": "101866403212888786668",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bookmark-bot%40bookmarks-tgp.iam.gserviceaccount.com"
+}
