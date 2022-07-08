@@ -1,87 +1,88 @@
-url,title,description,tags
-https://search.marginalia.nu/,marginalia search,an indie search engine,search tools
-https://www.sheldonbrown.com/,Sheldon Brown's  Bicycle Technical Info,a remarkable collection of knowledge about the greatest form of transport,reference bikes personal
-https://www.cyclingboardgames.net/,cycling board games,like bikes? like boardgames? this might be the sort for you?,bikes boardgames collections
-https://datasittersclub.github.io/site/,data stores club,a site dedicated to doing data science on the baby sitter club novels,books data
-https://cummings.ee/,e.e. cummings free poetry archive,"A collection of the work of Edward Estlin Cummings, as it enters the public domain. Three books are now available.",books poetry publicdomain collections
-https://maxkoehler.com/,Max Kohler Visual Communication,designer Max Kohler's home page,personal design
-https://mhurrell.co.uk/,Mark Hurrell.,designer and former colleague Mark Hurrell's home page,personal design peopleiknow
-https://alicebartlett.co.uk/,Alice Bartlett,developer and former colleague Alice Bartlett's website,personal dev peopleiknow
-http://freakytrigger.co.uk/,Freaky TriggerEst. 2000,it's quieter than during it's hey day but i will allways love Tom Ewing's music site,music blog
+url,title,description,[tags]
+https://search.marginalia.nu/,marginalia search,an indie search engine,"search,tools"
+https://www.sheldonbrown.com/,Sheldon Brown's  Bicycle Technical Info,a remarkable collection of knowledge about the greatest form of transport,"reference,bikes,personal"
+https://www.cyclingboardgames.net/,cycling board games,like bikes? like boardgames? this might be the sort for you?,"bikes,boardgames,collections"
+https://datasittersclub.github.io/site/,data stores club,a site dedicated to doing data science on the baby sitter club novels,"books,data"
+https://cummings.ee/,e.e. cummings free poetry archive,"A collection of the work of Edward Estlin Cummings, as it enters the public domain. Three books are now available.","books,poetry,publicdomain,collections"
+https://maxkoehler.com/,Max Kohler Visual Communication,designer Max Kohler's home page,"personal,design"
+https://mhurrell.co.uk/,Mark Hurrell.,former colleague and superstar designer Mark Hurrell's home page,"personal,design,peopleiknow"
+https://alicebartlett.co.uk/,Alice Bartlett,"developer, former colleague, and all round excellent person Alice Bartlett's website","personal,dev,peopleiknow"
+http://freakytrigger.co.uk/,Freaky TriggerEst. 2000,it's quieter than during it's hey day but i will allways love Tom Ewing's music site,"music,blog"
 http://www.nathalielawhead.com/candybox/,Candybox,Game  dev and all round creative genius Nathalie Lawhead' weblog,videogamed personal dev
-https://mikegallagher.org/,Mike Gallagher,friend and former co-worker Mike's website,personal design peopleiknow 
-https://roadarch.com/roadside.html,roadside architecture,"more than 2,700 pages and over 70,000 photos",design america transport collections
-http://www.superrune.com/tutorials/lucasfilm_ega.php,Lucasfilm EGA adventures,an appreciation of the graphics of old video games,design videogames personal nostalgia
-https://bradfrost.com/,bradfrost,the home page of web designer Brad Frost,design personal dev
-http://www.playingcardmakerscollection.co.uk/index.html,Worshipful company of makers of playing cards,a fantastic repository of playing cards from around the world and through time,cardgames design history collections
-https://platform.leolabs.space/,LeoLabs Platform,get data of low earth orbit data,tools data
-http://electronicplastic.com/,electronic plastic,"a massive collection of electronic toys, game and watches and the like, mainly from the 80s and early 90s",collections design videogamed
-https://www.derekyu.com/,derek yu,legendary creator of Spelunky,videogames personal
-https://doodad.dev/pattern-generator/,pattern generator,create patterns,tools design
-https://blog.thea.codes/,Blog posts & articles by Stargirl Flowers,"hadware, musical instruments, programing and design, that kind of thing",blog personal
-https://donsmaps.com/,Don's Maps,"Resources for the study of Palaeolithic / Paleolithic European, Russian and Australian Archaeology / Archeology",maps collections history
-https://www.nps.gov/carto/app/#!/parks,Find a National Park Service Map,lots of maps of american national parks,maps america collections
+https://mikegallagher.org/,Mike Gallagher,My friend and former co-worker Mike's website,"personal,design,peopleiknow "
+https://roadarch.com/roadside.html,roadside architecture,"more than 2,700 pages and over 70,000 photos","design,america,transport,collections"
+http://www.superrune.com/tutorials/lucasfilm_ega.php,Lucasfilm EGA adventures,an appreciation of the graphics of old video games,"design,videogames,personal,nostalgia"
+https://bradfrost.com/,bradfrost,the home page of web designer Brad Frost,"design,personal,dev"
+http://www.playingcardmakerscollection.co.uk/index.html,Worshipful company of makers of playing cards,a fantastic repository of playing cards from around the world and through time,"cardgames,design,history,collections"
+https://platform.leolabs.space/,LeoLabs Platform,get data of low earth orbit data,"tools,data"
+http://electronicplastic.com/,electronic plastic,"a massive collection of electronic toys, game and watches and the like, mainly from the 80s and early 90s","collections,design,videogamed"
+https://www.derekyu.com/,derek yu,legendary creator of Spelunky,"videogames,personal"
+https://doodad.dev/pattern-generator/,pattern generator,create patterns,"tools,design"
+https://blog.thea.codes/,Blog posts & articles by Stargirl Flowers,"hadware, musical instruments, programing and design, that kind of thing","blog,personal"
+https://donsmaps.com/,Don's Maps,"Resources for the study of Palaeolithic / Paleolithic European, Russian and Australian Archaeology / Archeology","maps,collections,history"
+https://www.nps.gov/carto/app/#!/parks,Find a National Park Service Map,lots of maps of american national parks,"maps,america,collections"
 https://docs.google.com/document/d/1iNSQIyNpVGHeak6isbP6AHdHD50gs8MNXF1GCf08efg/pub,Scroll Back: The Theory and Practice of Cameras in Side-Scrollers,very detailed and clearly explained exploration of 2D game cameras,videogames 
-https://www.tessera.li/,homepage of nat alison,"a software engineer, this page includes a wonderful polyhedra viewer",personal shapes dev
-http://dmccooey.com/polyhedra/,Visual Polyhedra,These pages present interactive graphical polyhedra organized in several categories,shapes collection
-https://www.saul.pw/,Saul Pwanson,"developer and data guy, great crossword content",personal data dev
-https://playingcards.io/game/standard-deck,PlayingCards.io,simple system for playing cards games (standard 52 card deckcard deck type things),cardgames tools
-https://www.wopc.co.uk/,world of playing cards,a lot of information about playing cards,cardgames history design
-https://sound-effects.bbcrewind.co.uk/,bbc sound effects,this feels like the bbc internet from a bygone era a redource of incredible scope and richness presented in an unfussy manner,collections sound bbc
-https://richarddawson.net/,richard dawson,The homepage of the fantastic musician Richard Dawson. ,music personal
-http://policediversnotebook.blogspot.com/,The Police Diver's Notebook,"I still revisit Nick Talbot's old blog. His voice is there in posts; argumentative, articulate, funny. ",blog personal music peopleiknow 
-http://www.bronnt.com/,Bronnt Industries Kapital,the music of Guy Bartel,music personal peopleiknow 
-https://klim.co.nz/,Kilm Type Foundry,Kris Sowersby's website. fantastic fonts and fascinating writing about fonts,fonts business design
-https://thebookofmodding.ml/,the book of minecraft modding ,it says it's a book but it's actually a website,videogames dev
-https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2,fold'n'fly,paper aeroplane folding instructions,instruction craft
-https://logic.ly/,logicly,try out simple logic circuits in your browser,tool dev
+https://www.tessera.li/,homepage of nat alison,"a software engineer, this page includes a wonderful polyhedra viewer","personal,shapes,dev"
+http://dmccooey.com/polyhedra/,Visual Polyhedra,These pages present interactive graphical polyhedra organized in several categories,"shapes,collection"
+https://www.saul.pw/,Saul Pwanson,"developer and data guy, great crossword content","personal,data,dev"
+https://playingcards.io/game/standard-deck,PlayingCards.io,simple system for playing cards games (standard 52 card deckcard deck type things),"cardgames,tools"
+https://www.wopc.co.uk/,world of playing cards,a lot of information about playing cards,"cardgames,history,design"
+https://sound-effects.bbcrewind.co.uk/,bbc sound effects,this feels like the bbc internet from a bygone era a redource of incredible scope and richness presented in an unfussy manner,"collections,sound,bbc"
+https://richarddawson.net/,richard dawson,The homepage of the fantastic musician Richard Dawson. ,"music,personal"
+http://policediversnotebook.blogspot.com/,The Police Diver's Notebook,"I still revisit Nick Talbot's old blog. His voice is there in posts; argumentative, articulate, funny. ","blog,personal,music,peopleiknow "
+http://www.bronnt.com/,Bronnt Industries Kapital,the music of Guy Bartel,"music,personal,peopleiknow "
+https://klim.co.nz/,Kilm Type Foundry,Kris Sowersby's website. fantastic fonts and fascinating writing about fonts,"fonts,business,design"
+https://thebookofmodding.ml/,the book of minecraft modding ,it says it's a book but it's actually a website,"videogames,dev"
+https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2,fold'n'fly,paper aeroplane folding instructions,"instruction,craft"
+https://logic.ly/,logicly,try out simple logic circuits in your browser,"tool,dev"
 https://patrickcollison.com/,Patrick Collison,"i like personal home page that list books that the owner has read, this one does",personal
-http://wayneandwax.com/,wayne and wax,,music blog
-https://int10h.org/,int10h,lots of resources around the nostalgic aesthetic of MS DOS computers in the late 80s early 90s including a ton of fonts,dev computers history collections nostalgia
-https://retours.eu/en/,retours,i love rail travel and this site has a bunch of fascinating stuff about the history and design of railways in europe,trains transport design history collections
+http://wayneandwax.com/,wayne and wax,,"music,blog"
+https://int10h.org/,int10h,lots of resources around the nostalgic aesthetic of MS DOS computers in the late 80s early 90s including a ton of fonts,"dev,computers,history,collections,nostalgia"
+https://retours.eu/en/,retours,i love rail travel and this site has a bunch of fascinating stuff about the history and design of railways in europe,"trains,transport,design,history,collections"
 https://ciechanow.ski/,Bartosz Ciechanowski,a blog with loads of interactive explanations,blog 
-https://watabou.itch.io/one-page-dungeon,one page dungeon,generates maps for dungeon crawling,rpgs maps tools
-https://www.londonsscreenarchives.org.uk/,london screen archives,a collection of old films about london,london films collection history
-https://maps.speccy.cz/,speccy screenshot maps,,computers videogames maps nostalgia
-http://www.luminist.org/archives/,LUMINIST ARCHIVES,"books, lots of scifi and other fiction",collection books scifi
-https://dbdiagram.io/home,dbdiagram,Draw Entity-Relationship Diagrams. Type in some json like syntax and get a nice diagram,tools dev
+https://watabou.itch.io/one-page-dungeon,one page dungeon,generates maps for dungeon crawling,"rpgs,maps,tools,games"
+https://www.londonsscreenarchives.org.uk/,london screen archives,a collection of old films about london,"london,films,collection,history"
+https://maps.speccy.cz/,speccy screenshot maps,,"computers,videogames,maps,nostalgia"
+http://www.luminist.org/archives/,LUMINIST ARCHIVES,"books, lots of scifi and other fiction","collection,books,scifi"
+https://dbdiagram.io/home,dbdiagram,Draw Entity-Relationship Diagrams. Type in some json like syntax and get a nice diagram,"tools,dev"
 https://geargenerator.com/,gear generator,generates gears,tools 
-https://bookmongers.com/,bookmongers,a second hand bookshop in south london. i like the website ,books business london
-https://www.childrensbookshoplondon.com/,Children's Bookshop Muswell Hill 0 ,"posibly the best bookshop in london, it does only sell childrens books(and some YA) but the staff really know their stuff and their selection is impecable",books business london
-http://walkman-archive.com/gadgets/index.html,the walkman archive,nostalgic stuff,collections music nostalgia
-http://wurstcaptures.untergrund.net/music/,sound generator,"generate ""music"" from bitwise operators",music dev
-http://www.radicalcartography.net/,radical cartography,a collection of unusual and provocative maps,maps collections
-https://www.edwardtufte.com/tufte/,edward tufte,,datavisualisation personal
-http://www.tubemapcentral.com/writing/writing.html,"maxwell roberts, tubemap central",,datavisualisation transport personal
-https://ui.glass/generator/,css glass effect generator,,generator dev
-https://www.designer-notes.com/,Soren Johnson's Game Design Journal,,games personal blog
-https://www.dischord.com/fugazi_live_series,Fugazi Live Series,"A great band and a great website, archiving and offering up a vast collection of recordings of their live shows.",music collections
-https://stephanietuerk.us/main,Stephanie Tuerk,,personal datavisualisation
-https://observablehq.com/@tomgp,My Observable notebooks,,me datavisualisation
-https://www.cupery.net/,Ken's Paper Boat Page,,personal transport engineering history
-https://maps.arcanum.com/en/map/europe-19century-secondsurvey/?layers=158%2C164&bbox=-456756.65699614096%2C6920406.539390485%2C-450885.3377609858%2C6923143.940465949,Historical maps of 19th century Europe,"A fantastic variety of techniques on display accross the continent. I'm particularly fond of hachure slope shading, it gives a really strong feel for the topology, much more visceral than contours",maps history design datavisualisation
-https://deathgenerator.com/,Death generator,Present your message in the style of any number of old video games,generator games
-https://brutalita.com/,Brutalita grid font editor,"Brutalita is an experimental font and editor,",tool fonts
-https://www.suzannetreister.net/Ampages/Amenu.html,"Suzanne Treister, 1991-1992, Fictional Videogame Stills",,art collection games personal
-https://webonastick.com/fonts/routed-gothic/,Routed Gothic Font,"A clean implementation of a common lettering style found on technical drawings, engraved office signs, computer and typewriter keyboards, and some comic books and avionics from the mid-20th century.",fonts design
-https://webonastick.com/fonts/dse-typewriter/,DSE Typewriter Font,A monospace coding font inspired by early 20th-century typewriters.,fonts design
-https://impossible-mission.krissz.hu/,Imposible Mission,Play Impossible Mission in your browser. Pretty enjoyable for a C64 game,games c64 
-https://blog.krissz.hu/,KRISSZ.JU,"„Az összevisszaságban találd meg az egyszerűséget, a hangzavarban a harmóniát...” I don't understand what's gogin on here but there's some cool pages",personal blog
-https://explore.paulbutler.org/bet/,The Kelly criterion: How to size bets,A neat interactive explainer the maths of which I hope one day to have time to get my head around,maths probability interactive-explanation
-https://modjourn.org,Modernist journals project,,print collection
-https://www.ravensbourne.ac.uk/bbc-motion-graphics-archive,BBC motion graphics archive,,collection video design animation bbc
-http://rachelaldred.org/,"Rachel Aldred, Professor of Transport at the University of Westminster",,personal transport
-https://www.mysociety.org/,My Society,,society democracy
-https://doteveryone.org.uk/,Dot Everyone,,society internet
-https://www.rachelcoldicutt.com/,Rachel Coldicutt,,personal internet
-https://anna.ps/,Anna Powell-Smith,,personal internet data
-https://www.centreforpublicdata.org/,Centre for Public Data,,society data
+https://bookmongers.com/,bookmongers,a second hand bookshop in south london. i like the website ,"books,business,london"
+https://www.childrensbookshoplondon.com/,Children's Bookshop Muswell Hill 0 ,"posibly the best bookshop in london, it does only sell childrens books(and some YA) but the staff really know their stuff and their selection is impecable","books,business,london"
+http://walkman-archive.com/gadgets/index.html,the walkman archive,nostalgic stuff,"collections,music,nostalgia"
+http://wurstcaptures.untergrund.net/music/,sound generator,"generate ""music"" from bitwise operators","music,dev"
+http://www.radicalcartography.net/,radical cartography,a collection of unusual and provocative maps,"maps,collections"
+https://www.edwardtufte.com/tufte/,edward tufte,,"datavisualisation,personal"
+http://www.tubemapcentral.com/writing/writing.html,"maxwell roberts, tubemap central",,"datavisualisation,transport,personal"
+https://ui.glass/generator/,css glass effect generator,,"generator,dev"
+https://www.designer-notes.com/,Soren Johnson's Game Design Journal,,"games,personal,blog"
+https://www.dischord.com/fugazi_live_series,Fugazi Live Series,"A great band and a great website, archiving and offering up a vast collection of recordings of their live shows.","music,collections"
+https://stephanietuerk.us/main,Stephanie Tuerk,,"personal,datavisualisation"
+https://observablehq.com/@tomgp,My Observable notebooks,,"me,datavisualisation"
+https://www.cupery.net/,Ken's Paper Boat Page,,"personal,transport,engineering,history"
+https://maps.arcanum.com/en/map/europe-19century-secondsurvey/?layers=158%2C164&bbox=-456756.65699614096%2C6920406.539390485%2C-450885.3377609858%2C6923143.940465949,Historical maps of 19th century Europe,"A fantastic variety of techniques on display accross the continent. I'm particularly fond of hachure slope shading, it gives a really strong feel for the topology, much more visceral than contours","maps,history,design,datavisualisation"
+https://deathgenerator.com/,Death generator,Present your message in the style of any number of old video games,"generator,games"
+https://brutalita.com/,Brutalita grid font editor,"Brutalita is an experimental font and editor,","tool,fonts"
+https://www.suzannetreister.net/Ampages/Amenu.html,"Suzanne Treister, 1991-1992, Fictional Videogame Stills",,"art,collection,games,personal"
+https://webonastick.com/fonts/routed-gothic/,Routed Gothic Font,"A clean implementation of a common lettering style found on technical drawings, engraved office signs, computer and typewriter keyboards, and some comic books and avionics from the mid-20th century.","fonts,design"
+https://webonastick.com/fonts/dse-typewriter/,DSE Typewriter Font,A monospace coding font inspired by early 20th-century typewriters.,"fonts,design"
+https://impossible-mission.krissz.hu/,Imposible Mission,Play Impossible Mission in your browser. Pretty enjoyable for a C64 game,"games,c64 "
+https://blog.krissz.hu/,KRISSZ.JU,"„Az összevisszaságban találd meg az egyszerűséget, a hangzavarban a harmóniát...” I don't understand what's gogin on here but there's some cool pages","personal,blog"
+https://explore.paulbutler.org/bet/,The Kelly criterion: How to size bets,A neat interactive explainer the maths of which I hope one day to have time to get my head around,"maths,probability,interactive-explanation"
+https://modjourn.org,Modernist journals project,,"print,collection"
+https://www.ravensbourne.ac.uk/bbc-motion-graphics-archive,BBC motion graphics archive,,"collection,video,design,animation,bbc"
+http://rachelaldred.org/,"Rachel Aldred, Professor of Transport at the University of Westminster",,"personal,transport"
+https://www.mysociety.org/,My Society,,"society,democracy"
+https://doteveryone.org.uk/,Dot Everyone,,"society,internet"
+https://www.rachelcoldicutt.com/,Rachel Coldicutt,,"personal,internet"
+https://anna.ps/,Anna Powell-Smith,,"personal,internet,data"
+https://www.centreforpublicdata.org/,Centre for Public Data,,"society,data"
 https://www.careful.industries/,Careful industries,,company
 https://www.robinsloan.com/,Robin Sloan,,personal
-http://www.stefanieposavec.com/,Stephanie Posavec,friend and artful dataviz practitioner ,personal peopleiknow datavizualisation design
-https://www.cassie.codes/,Cassie Codes,,personal webdev
+http://www.stefanieposavec.com/,Stephanie Posavec,Friend and artful dataviz practitioner ,"personal,peopleiknow,datavizualisation,design"
+https://www.cassie.codes/,Cassie Codes,,"personal,webdev"
 http://thistothat.com/,This to that,"i have loved this site since forever, possibly the best site on the internet",tool
 http://www.effectgames.com/demos/worlds/,Living worlds,palette cycling,graphics
-https://web3isgoinggreat.com/,Web3 is doing just great,reliable source of schadenfreude,humor news
-https://spacebiff.com/,Space Biff,Peerless board game criticism,personal blog personal games
-https://theshfl.com/,The Shfl,"A website without vowels that focuss on albums as the primary unit of musical consumption, charmingly retro! (but also good, because I'm the kind of person who misses albums and was excited about websites with no vowels in the name back in the 00s)",music tool directory
+https://web3isgoinggreat.com/,Web3 is doing just great,reliable source of schadenfreude,"humor,news"
+https://spacebiff.com/,Space Biff,Peerless board game criticism,"personal,blog,personal,games"
+https://theshfl.com/,The Shfl,"A website without vowels that focuss on albums as the primary unit of musical consumption, charmingly retro! (but also good, because I'm the kind of person who misses albums and was excited about websites with no vowels in the name back in the 00s)","music,tool,directory"
+https://www.timemachinego.com/linkmachinego/,Link Machine Go,Venerable link log. Still looks and acts the same as it did ~20 years ago,"personal,blog"
