@@ -10,7 +10,7 @@ on:
 
 env:
   GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
-  CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
+  GOOGLE_CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
   COMMIT_SHA: ${{ github.sha }}
 
 jobs:
@@ -21,11 +21,12 @@ jobs:
       - uses: actions/setup-node@v3
         with: 
           node-version: 16
-      - run: npm ci
-      - run: npm run get
+      - run: | 
+          npm i -g @tomgp/gsdownload
+          getsheet 10x0DkhnDBOfAV8-cUbDeh1BBTQKuncwEozScRJZV4m4 ./data
       - run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .
           git commit -m "data update"
-          git push origin main
+          git push origin ${{ github.GITHUB_REF_NAME }}
