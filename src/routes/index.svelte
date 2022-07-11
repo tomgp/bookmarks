@@ -14,7 +14,7 @@
       tagsDict[tag] += 1;
     });
   });
-  console.log('---',tagsDict);
+
   let taglist = Object.entries(tagsDict)
     .map(([name, count])=>({name, count}))
     .sort((a,b)=>{
@@ -39,6 +39,8 @@
     });
     return links;
   }
+
+  console.log(personalLinksData)
 </script>
 <h1>Links</h1>
 <section>

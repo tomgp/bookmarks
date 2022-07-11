@@ -2,7 +2,7 @@ import { csvParse } from 'd3-dsv';
 import fs from 'fs';
 import path from 'path';
 
-const dataDir = './data';
+const dataDir = './src/data';
 const csvFileList = fs.readdirSync(dataDir)
   .filter(fileName=>(fileName.indexOf('.csv') > 0));
 
