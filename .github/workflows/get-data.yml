@@ -23,7 +23,7 @@ jobs:
           node-version: 16
       - run: | 
           npm i -g @tomgp/gsdownload
-          getsheet 10x0DkhnDBOfAV8-cUbDeh1BBTQKuncwEozScRJZV4m4 ./data
+          getsheet 10x0DkhnDBOfAV8-cUbDeh1BBTQKuncwEozScRJZV4m4 ./src/data
       - run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"

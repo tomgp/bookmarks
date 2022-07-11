@@ -9,7 +9,7 @@ const csvFileList = fs.readdirSync(dataDir)
 csvFileList.forEach(fileName=>{
   const data = csvParse(fs.readFileSync(path.join(dataDir,fileName),'utf-8'), parseRow);
   const [sheetName] = fileName.split('.');
-  console.log(sheetName, data);
+  fs.writeFileSync(path.join(dataDir,`${sheetName}.json`),JSON.stringify(data));
 });
 
 function parseRow(row){
