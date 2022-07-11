@@ -11,11 +11,8 @@ const config = {
             assets: "docs"
         }),
         paths: {
-            // change below to your repo name
             base: dev ? "" : "/bookmarks",
         },
-        // hydrate the <div id="svelte"> element in src/app.html
-        target: "#svelte"
     }
 };
 
