@@ -11,20 +11,13 @@ Working, [as I do](https://www.2x2.graphics), on data driven web sites I've ofte
 
 Data driven website such as [election results services](https://ig.ft.com/us-elections/results/), [electricity usage tracers](https://electricinsights.co.uk/#/dashboard?period=7-days&start=2017-04-14&&_k=9lhek8) and so on rarely share a data format and so can be hard to squeeze into typical content management systems without a lot of customisation (time &amp; money).
 
-## Solution: Prior Art
+## Solution
 
 Over the years I've used (and written) a variety of systems which seek to make the data-to-websites process easier by leveraging the Google sheets' API.
 
-Google sheets has many advantages but the most important are 1. It's already familiar to many people 2. collaboration is core to the way the software works(permissions, history tracking, simultaneous editing).
+Google sheets has many advantages but the most important are that it's already familiar to many people and that collaboration is core to the way the software works(permissions, history tracking, simultaneous editing).
 
- * I came across [Jessica Lord](http://jlord.us/sheetsee.js/)'s __[SheetSee](http://jlord.us/sheetsee.js/)__ way back in 2012, it was the first time I'd seen anyone using Google sheets as a kind of CMS. It's client side  which is both a strength and weakness.
- * __[Bertha](https://github.com/Financial-Times/bertha)__ I believe [Luke Kavanagh](https://github.com/kavanagh) initially developed this (or it's immediate for-runner) to power the FTs 2012 US election coverage. By the time I left the FT in 2017 it was an integral part of the FTs online setup. As well as powering a big chunk of the data journalism and graphics work it was used to manage configurations for other systems. Because it updates potentially in more or less real time you have to place trust in those editing the spreadsheet. 
- * __[ExpreCSV](https://github.com/aftertheflood/exprecsv)__ was my attempt to formalise the code I'd written time after time for quick prototyping work it borrows some ideas from Bertha around providing additional structure via column and sheet naming conventions whilst jettisoning a bunch of stuff that I never used. It's a bit half baked.
- * With __[Laundromat](https://github.com/signal-noise/laundromat)__ [Marcel Kornblum](https://marcelkornblum.com/project-laundromat-bac78ba82bb2) took a slightly different tack. Instead of directly providing an API endpoint that updates alongside the Google sheet Laundromat instead sends spreadsheet data to a git repository and creates a pull request allowing for an additional QA step. This means that parsing the resulting spreadsheets into JSON (or whatever) if required is an additional step, often carried out in CI.
-
-## Solution: My version
-
-It occurred to me a while back that it's probably feasible to achieve most of the stuff I'm interested re getting a Google spreadsheet onto a website with GitHub actions. Github actions can be triggered manually, by some event on the repo e.g. creating a pull request, or on a timer between these three we have a pretty good selection of options right off the bat. So without further ado...
+It occurred to me a while back that it's probably feasible to achieve most of the stuff I'm interested re getting a Google spreadsheet onto a website with GitHub actions. Github actions can be triggered manually, by some event on the repo e.g. creating a pull request, or on a cron-like timer which can provide a good degree of flexibility in terms of how and when data is added to a project/published.
 
 ### Overview
 
@@ -123,3 +116,11 @@ const creds = require('./.keys/bookmarks-tgp-creds.json'); // the file saved fro
   console.log(sheet.rowCount);
 })();
 ```
+
+
+## Prior Art
+
+ * I came across [Jessica Lord](http://jlord.us/sheetsee.js/)'s __[SheetSee](http://jlord.us/sheetsee.js/)__ way back in 2012, it was the first time I'd seen anyone using Google sheets as a kind of CMS. It's client side  which is both a strength and weakness.
+ * __[Bertha](https://github.com/Financial-Times/bertha)__ I believe [Luke Kavanagh](https://github.com/kavanagh) initially developed this (or it's immediate forerunner) to power the FTs 2012 US election coverage. By the time I left the FT in 2017 it was an integral part of their online setup. As well as powering a big chunk of the data journalism and graphics work it was used to manage configurations for other systems. Because it updates in more or less real time you have to place trust in those editing the spreadsheet. 
+ * __[ExpreCSV](https://github.com/aftertheflood/exprecsv)__ was my attempt to formalize the code I'd written time after time for quick prototyping work it borrows some ideas from Bertha around providing additional structure via column and sheet naming conventions whilst jettisoning a bunch of stuff that I never used. It's a bit half baked.
+ * With __[Laundromat](https://github.com/signal-noise/laundromat)__ [Marcel Kornblum](https://marcelkornblum.com/project-laundromat-bac78ba82bb2) took a slightly different tack. Instead of directly providing an API endpoint that updates alongside the Google sheet Laundromat instead sends spreadsheet data to a git repository and creates a pull request allowing for an additional QA step. This means that parsing the resulting spreadsheets into JSON (or whatever) if required is an additional step, often carried out in CI.

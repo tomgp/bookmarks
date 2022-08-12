@@ -42,45 +42,51 @@
 
   console.log(personalLinksData)
 </script>
+<header class="box">
 <h1>Links</h1>
-<section>
-  <h2>Personal</h2>
-  <div>
-    {#each personalLinksData as link}
-      <span class="personal"><a href={link.url}>{link.title}</a></span>
-    {/each}
-  </div>
-</section>
-<main>
+{#each personalLinksData as link}
+  <span class="personal"><a href={link.url}>{link.title}</a></span>
+{/each}
+</header>
+<hr>
+<main class="box">
   <section>
     <h2>Articles</h2>
-    <p>This is a collection of archived articles I've read, kind of a traditional link log.</p>
+    <p>This is a collection of archived articles I've read, a traditional link log.</p>
     <ul>
       {#each articles as article}
-        <a href="{article["original-url"]}">{article.title} {#if article.author} &mdash; {article.author}{/if}</a> (<a href={article["archive-url"]}>archived {article["archive-date"]}</a>)<p>{article.description}</p>
+        <a href="{article["original-url"]}">{article.title} {#if article.author} &mdash; {article.author}{/if}</a> (<a href={article["archive-url"]}>archived {article["archive-date"]}</a>)
+        <p class="linkdescription">{article.description}</p>
       {/each}
     </ul>
   </section>
   <section>
     <h2>Directory</h2>
     <p>This is just a collection of websites I think are usefull, interesting or just generally good in some way.</p>
-    <div class="taglist box">
-      {#each taglist as tag}<span class="tag">{tag.name}</span> <span class="count">({tag.count}) </span>{/each}
-    </div>
     {#each topTags as tag}
     <div>
       <h2>{tag.name} ({tag.count})</h2>
       <ul>
-        {#each linksByTags([tag.name]) as link}<li><a href={link.url}>{link.title}</a></li>{/each}
+        {#each linksByTags([tag.name]) as link}
+          <li><a href={link.url}>{link.title}</a></li>
+          <p class="linkdescription">{link.description}</p>
+        {/each}
       </ul>
     </div>
     {/each}
   </section>
 </main>
 <style>
-  main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  h2{
+    background:black;
+    color: white;
+  }
+  @media screen and (min-width: 970px) {
+    main{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:var(--s0);
+    }
   }
   ul{
     display:block;
@@ -89,7 +95,14 @@
     font-family: sans-serif;
     font-size: var(--s-1);
   }
-  .personal{
-    margin-right: 1rem;
+  a{
+    font-variant: small-caps;
   }
+  .linkdescription{
+    color: var(--color-medium);
+  }
+  .personal{
+    margin-right:var(--s0);
+  }
+
 </style>
