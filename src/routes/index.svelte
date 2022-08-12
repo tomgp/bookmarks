@@ -52,7 +52,7 @@
 <main class="box">
   <section>
     <h2>Articles</h2>
-    <p>This is a collection of archived articles I've read, a traditional link log.</p>
+    <p>A collection of archived articles I've read, a traditional link log.</p>
     <ul>
       {#each articles as article}
         <a href="{article["original-url"]}">{article.title} {#if article.author} &mdash; {article.author}{/if}</a> (<a href={article["archive-url"]}>archived {article["archive-date"]}</a>)
@@ -62,7 +62,7 @@
   </section>
   <section>
     <h2>Directory</h2>
-    <p>This is just a collection of websites I think are usefull, interesting or just generally good in some way.</p>
+    <p>A collection of websites I think are usefull, interesting or just generally good in some way.</p>
     {#each topTags as tag}
     <div>
       <h2>{tag.name} ({tag.count})</h2>
@@ -78,8 +78,8 @@
 </main>
 <style>
   h2{
-    background:black;
-    color: white;
+    /* background:black;
+    color: white; */
   }
   @media screen and (min-width: 970px) {
     main{
@@ -90,10 +90,6 @@
   }
   ul{
     display:block;
-  }
-  .tag, .count{
-    font-family: sans-serif;
-    font-size: var(--s-1);
   }
   a{
     font-variant: small-caps;
